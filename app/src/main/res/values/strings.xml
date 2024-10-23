@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Список расходов</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="continion">Продолжить</string>
+    <string name="date">Дата списания:</string>
+    <string name="name">Сумма расхода:</string>
+    <string name="yet">Подробная информация о расходе:</string>
+    <string name="start">Показать</string>
+    <string name="returnb">Добавить расходы</string>
+    <string name="login">Введите логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="newtask">Новая информация о расходах</string>
+</resources>

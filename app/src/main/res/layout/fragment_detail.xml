@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detailFragment"
+    android:background="@drawable/fon"
+    tools:context=".InputFragment"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/newtask"
+        android:layout_width="366dp"
+        android:layout_height="83dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/newtask"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:layout_width="198dp"
+        android:layout_height="34dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/date"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/thisis24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ed_date"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/thisis24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="214dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/thisis24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/thisis18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_ok"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:background="@drawable/button"
+        android:text="@string/continion"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_yet"
+        android:layout_width="376dp"
+        android:layout_height="33dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/yet"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ed_yet"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text"
+        android:gravity="top|start"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/thisis18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
